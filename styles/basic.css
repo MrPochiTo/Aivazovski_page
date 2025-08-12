@@ -11,6 +11,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font-family: 'Roboto-Medium';
@@ -19,6 +22,9 @@ body {
 a {
     text-decoration: none;
     color: unset;
+}
+h1,p,h2,h3 {
+    margin: 0;
 }
 ul {
     list-style: none ;
@@ -29,4 +35,9 @@ ul {
     margin: 0 auto;
     max-width: 970px;
     padding: 0 10px;;
+}
+@media(max-width: 400px) {
+    .container {
+        padding: 0 30px;
+    }
 }

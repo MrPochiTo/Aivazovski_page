@@ -1,0 +1,56 @@
+.about {
+    text-align: center;
+    background-color: var(--bg-main-gray);
+    padding: 60px 30px 100px;
+    color: var(--color-black);
+}
+
+.about-title {
+    font-family: 'Roboto-Bold';
+    font-size: 34px;
+    margin-bottom: 42px;
+}
+.about-subtitle-ru, 
+.about-subtitle-en {
+    font-size: 18px;
+    margin: 0 auto 15px  ;
+    max-width: 780px;
+}
+.about-descrition-ru, 
+.about-descrition-en {
+    position: relative;
+    font-size: 18px;
+    margin: 0 auto 34px  ;
+    text-align: justify;
+    max-width: 780px;
+}
+.about-descrition-ru::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    background-color: var(--font-color-grey);
+    right: 19%;
+    left: 19%;
+    bottom: -16px;
+    animation: pulse 10s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    50%{
+        right: 35%;
+        left: 35%;
+    }
+    100%{
+        right: 19%;
+        left: 19%;
+    }
+}
+@media (max-width: 400px){
+    .about-subtitle-ru, 
+    .about-subtitle-en,
+    .about-descrition-ru, 
+    .about-descrition-en {
+    font-size: 14px;
+}
+
+}

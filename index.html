@@ -13,16 +13,16 @@
             <nav class="nav" aria-label="header navigation">
                 <ul class="nav-list" aria-label="header list navigation">
                     <li>
-                        <a href="http://" class="nav-link"  aria-label="link to home">Home</a>
+                        <a href="#home-id" class="nav-link"  aria-label="link to home">Home</a>
                     </li>
                     <li>
-                        <a href="http://" class="nav-link"  aria-label="link to about">About</a>
+                        <a href="#about-id" class="nav-link"  aria-label="link to about">About</a>
                     </li>
                     <li>
-                        <a href="http://" class="nav-link"  aria-label="link to History">History</a>
+                        <a href="#history-id" class="nav-link"  aria-label="link to History">History</a>
                     </li>
                     <li>
-                        <a href="http://" class="nav-link"  aria-label="link to portfolio">Portfolio</a>
+                        <a href="#portfolio-id" class="nav-link"  aria-label="link to portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a href="http://" class="nav-link"  aria-label="link to contacts">Contacts</a>
@@ -31,8 +31,51 @@
             </nav>
         </div>
     </header>
-    <main>
-
+    <main aria-label="main">
+        <section class="home" aria-label="Home section" id="home-id">
+            <div class="container">
+                <h1 class="home-title" aria-label="Title">Ivan Constantinovich Aivazovski</h1>
+                <p class="home-description" aria-label="description">Russian marine painter of Armenian origin, collector, philanthropist</p>
+                <img src="./assets/webp/Home.webp" alt="Ivan Constantinovich Aivazovski" class="Home-img">
+            </div>
+        </section>
+        <section class="about" aria-lable="About section" id="about-id">
+            <div class="container">
+                <h2 class="about-title" aria-label="About title ">
+                    About
+                </h2>
+                <h3 class="about-subtitle-ru" aria-label="About subtitle ru">
+                    Ива́н Константи́нович Айвазо́вский – русский живописец-маринист армянского происхождения, коллекционер, меценат.
+                </h3>
+                <p class="about-descrition-ru" aria-label="about description">
+                    Будучи художником с мировой известностью, Иван Константинович Айвазовский предпочитал жить и работать на своей родине — в Крыму. Айвазовский наиболее известен своими морскими пейзажами, которые составляют больше половины его работ. Художник считается одним из величайших маринистов всех времён.
+                </p>
+                <h3 class="about-subtitle-en" aria-label="About subtitle en">
+                    Ivan Konstantinovich Aivazovsky - Russian marine painter of Armenian origin, collector, philanthropist.
+                </h3>
+                <p class="about-descrition-en" aria-label="about description en">
+                    Being a world famous artist, Ivan Konstantinovich Aivazovsky preferred to live and work in his homeland - in the Crimea. Aivazovsky is best known for his seascapes, which make up more than half of his work. The artist is considered one of the greatest marine painters of all time.
+                </p>
+            </div>
+        </section>
+        <section class="history" aria-label="history section" id="history-id">
+            <div class="container">
+                <h2 class="history-title" aria-label="Title in history section">History</h2>
+                <img src="./assets/webp/History.jpg" alt="History about Aivazovski" class="history-photo">
+                <p class="history-description" aria-label="description about history">Дом в котором родился Айвазовский | The house where Aivazovsky was born </p>
+            </div>
+        </section>
+        <section class="portfolio" aria-label="portfolio section" id="portfolio-id">
+            <div class="container">
+                <h2 class="portfolio-title" aria-label="Title in portfolio section">Portfolio</h2>
+                <img src="./assets/webp/Winter picture.webp" alt="Winter wagon train on the way" class="portfolio-photo">
+                <p class="portfolio-description" aria-label="description about Winter wagon train on the way">Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857</p>
+                <img src="./assets/webp/Rainbow 1.jpg" alt="Rainbow" class="portfolio-photo">
+                <p class="portfolio-description" aria-label="description about Rainbow" >Радуга, 1873 г. | Rainbow, 1873</p>
+                <img src="./assets/webp/Beach in the morning.webp" alt="Gulf of Naples in the morning" class="portfolio-photo">
+                <p class="portfolio-description" aria-label="description about Gulf of Naples in the morning" >Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893</p>
+            </div>
+        </section>
     </main>
     <footer>
 
